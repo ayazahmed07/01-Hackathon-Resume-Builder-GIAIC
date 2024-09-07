@@ -95,36 +95,73 @@ ul:hover {
   transition: background-color 0.7s ease, color 0.7s ease;
 }
 
-
 button {
-  padding: 15px 15px;
-  background-color: #d62b2b;
-  color: white;
+    display: block;
+    width: 20%;
+    padding: 12px;
+    background-color: #1d72b8;
+    color: #ffffff;
+    border: none;
     border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px auto;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
-  text-align: center;
-  line-height: 2px;
+  font-size: 16px;
 }
 
 button:hover {
-  background-color: #555;
-  text-align: center;
+  background-color: #0056b3;
 }
 
-@media (max-width: 600px) {
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
   body {
-    margin: 10px;
+    padding: 10px;
   }
 
   section {
     padding: 15px;
   }
 
-  h2 {
-    font-size: 1.2rem;
+  h1, h3 {
+    font-size: 1.3rem;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
   }
 
   button {
     width: 100%;
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  ul {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h3 {
+    font-size: 1.1rem;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 12px;
   }
 }
