@@ -1,56 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Resume Builder </title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-</head>
+  <body>
+    <!-- Personal Information Section -->
+    <section id="perosnalinfo">
+      <h1 id="name">Ayaz Ahmed Resume</h1>
+      Email:
+      <strong
+        ><a
+          href="mailto:Ayazahmed824@gmail.com"
+          style="color: white; text-decoration: none"
+          >Ayazahmed824@gmail.com</a
+        >
+        <br />
+        Contact: 0345-1234567 <br />
 
+        <div>
+          Connect Me:
+          <a
+            href="https://www.linkedin.com/in/ayaz-ahmed-074513a8/"
+            target="_blank"
+            class="social-icon"
+          >
+            <i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/ayaz.ahmed.3557440"
+            target="_blank"
+            class="social-icon"
+          >
+            <i <i class="fab fa-facebook"></i>
+          </a>
+        </div>
+      </strong>
+      <div class="profile-container">
+        <img
+          src="profileImage/profile.jpg"
+          alt="Profile Picture"
+          class="profile-pic"
+        />
+      </div>
+    </section>
 
-<body>
-    <header>
-        <h1 class="space">Ayaz Ahmed</h1>
-        <p class="space">Email: Ayazahmed830@gmail.com  <br> Contact: 0345-1234567 <br>
-            Connect Me:
-            <a href="https://www.linkedin.com/in/ayaz-ahmed-074513a8/" target="_blank" class="social-icon">
-                <i class="fab fa-linkedin"></i></a>
-            <a href="https://www.facebook.com/ayaz.ahmed.3557440" target="_blank" class="social-icon">
-                <i <i class="fab fa-facebook"></i>
-</a>
-        </p>
-    </header>
-    <div class="profile-container"> 
-        <img src="profileImage/profile.jpg" alt="Profile Picture" class="profile-pic">
-    </div>
- 
+    <!-- Education Section -->
 
     <section id="education">
-        <h2>Education</h2>
-        <p>Master's in Commerce, University of Karachi</p>
+      <h3>Education <i class="fa-solid fa-user-graduate"></i></h3>
+
+      <li>Master's in Commerce, University of Karachi.</li>
+      <li>Bachelor of Commerce, University of Karachi.</li>
+      <li>Inter in Commerce, Government Premier College.</li>
+      <li>Martric Science, Model Public School.</li>
     </section>
+
+    <!-- Skills Section -->
 
     <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>TYPESCRIPT</li>
-        </ul>
+      <h3>Skills <i class="fa-solid fa-circle-down"></i></h3>
+      <ul>
+        HTML
+      </ul>
+      <ul>
+        CSS
+      </ul>
+      <ul>
+        JAVASCRIPT
+      </ul>
+      <ul>
+        TYPESCRIPT
+      </ul>
+      <ul>
+        REACT
+      </ul>
+      <ul>
+        NEXTJS
+      </ul>
     </section>
+
+    <!-- Work Experience Section -->
 
     <section id="work-experience">
-        <h2>Professional Experience</h2>
-        <p>Accountant</p>
-        <p></p>
+      <h3>Work Experience <i class="fa-solid fa-user-tie"></i></h3>
+      <li>3 Years working Experience as an Accountant at Cafe Paraha.</li>
+      <li>4 Years working Experience as an Assistant Accountant at Alanto</li>
+      <li>3 Month workings Experience as in Intern at Okra Resturant</li>
     </section>
 
-    <button id="toggleSkillsBtn"> Skills</button>
-
-<script src="main.js"> </script>
-
-</body>
-
+   <!-- Button to Toggle Skills Section -->
+    <button id="toggle-skils"> Toggle Skills </button> 
+  </body>
 </html>
