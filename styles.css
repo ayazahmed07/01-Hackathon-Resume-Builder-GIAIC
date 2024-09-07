@@ -1,0 +1,84 @@
+body {
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+padding: 20px;
+background-color: rgb(3, 0, 17);
+color: white;
+}
+
+space {
+    line-height: 0.5;
+}
+
+header {
+    text-align: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.profile-container {
+   justify-content: center;
+   display: flex;
+}
+
+section {
+    margin: 10px 0;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px
+} 
+
+h2 {
+    color: #ffffff;
+    font-size: 40px
+} 
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+   } 
+
+
+button {
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    background-color: #e8ecf0;
+    color: rgb(14, 13, 13);
+    border: none;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: #6698ce;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .social-icon {
+    width: 30px;
+    transition: transform 0.05ms ease;
+    margin-right: 10Px;
+  }
+
+  .social-icon :hover {
+transform: scale(1.3);
+  }
