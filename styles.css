@@ -124,18 +124,17 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Mobile Responsive Design */
+/* Responsive Design for Mobile */
 @media (max-width: 768px) {
   body {
     padding: 10px;
   }
 
-  section {
-    padding: 15px;
-  }
-
-  h1, h3 {
-    font-size: 1.3rem;
+  #name {
+    font-size: 1.5em;  /* Reduced font size for mobile */
+    margin-top: 15px;  /* Adjust margins for smaller screens */
+    margin-bottom: 8px;
+    line-height: 1.4;  /* Ensure adequate line spacing on small screens */
   }
 
   .profile-pic {
@@ -144,24 +143,35 @@ button:hover {
   }
 
   button {
-    width: 100%;
+    width: 80%;
     padding: 15px;
-    font-size: 18px;
+    font-size: 1em;
   }
 
   ul {
-    font-size: 14px;
+    font-size: 0.9em;
     padding: 8px;
   }
 }
 
 @media (max-width: 480px) {
-  h1, h3 {
-    font-size: 1.1rem;
+  #name, h3 {
+    font-size: 1.4em;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
   }
 
   button {
-    font-size: 16px;
+    width: 100%;
     padding: 12px;
+    font-size: 0.9em;
+  }
+
+  ul {
+    font-size: 0.8em;
+    padding: 6px;
   }
 }
