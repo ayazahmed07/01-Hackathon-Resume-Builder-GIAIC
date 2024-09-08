@@ -5,8 +5,14 @@
   color: black;
   margin-top: 20px;
   text-align: left;
-  font-size: 20px;
-  
+  font-size: 22px;
+
+}
+
+#label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
 
 }
 
@@ -21,52 +27,66 @@
 h2 {
   text-align: left;
   color: red
-
 }
 
 #one {
   padding-left: 20px;
- margin: 20px;  
+  margin: 20px;
 }
+
+
+
 
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
   #resumeContainer {
-    font-size: 16px; /* Smaller font size for mobile */
+    font-size: 16px;
+    /* Smaller font size for mobile */
   }
 
   #personal-info {
-    padding: 8px; /* Adjust padding for smaller screens */
-    margin: 10px; /* Adjust margin for smaller screens */
+    padding: 8px;
+    /* Adjust padding for smaller screens */
+    margin: 10px;
+    /* Adjust margin for smaller screens */
   }
 
   #one {
-    padding-left: 10px; /* Less padding on smaller screens */
-    margin: 10px; /* Adjust margin for smaller screens */
+    padding-left: 10px;
+    /* Less padding on smaller screens */
+    margin: 10px;
+    /* Adjust margin for smaller screens */
   }
 
   h2 {
-    font-size: 18px; /* Adjust font size for headings on mobile */
+    font-size: 18px;
+    /* Adjust font size for headings on mobile */
   }
 }
 
 /* Further adjustments for very small screens */
 @media (max-width: 480px) {
   #resumeContainer {
-    font-size: 14px; /* Even smaller font size for very small screens */
+    font-size: 14px;
+    /* Even smaller font size for very small screens */
   }
 
   #personal-info {
-    padding: 6px; /* Further adjust padding for very small screens */
-    margin: 5px; /* Further adjust margin for very small screens */
+    padding: 6px;
+    /* Further adjust padding for very small screens */
+    margin: 5px;
+    /* Further adjust margin for very small screens */
   }
 
   #one {
-    padding-left: 5px; /* Minimal padding on very small screens */
-    margin: 5px; /* Minimal margin on very small screens */
+    padding-left: 5px;
+    /* Minimal padding on very small screens */
+    margin: 5px;
+    /* Minimal margin on very small screens */
   }
 
   h2 {
-    font-size: 16px; /* Further adjust font size for very small screens */
+    font-size: 16px;
+    /* Further adjust font size for very small screens */
   }
 }

@@ -18,7 +18,7 @@ body {
     max-width: 600px;
     margin: 0 auto;
     padding: 65px;
-    background-color: #c2c1c1;
+    background-color: #f5f111;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -28,7 +28,7 @@ body {
     padding: 19.5px;
     border: 2px solid #141414;
     border-radius: 15px;
-    background-color: #f9f9f9;
+    background-color:rgb(248, 246, 246);
     color: black;
     
   }
@@ -38,7 +38,7 @@ body {
     padding: 19.5px;
     border: 2px solid #141414;
     border-radius: 15px;
-    background-color: #f9f9f9;
+    background-color:rgb(248, 246, 246);
     color: black;
     
   }
@@ -48,7 +48,7 @@ body {
     padding: 19.5px;
     border: 2px solid #141414;
     border-radius: 15px;
-    background-color: #f9f9f9;
+    background-color:rgb(248, 246, 246);
     color: black;
     
   }
@@ -58,7 +58,7 @@ body {
     padding: 19.5px;
     border: 2px solid #141414;
     border-radius: 15px;
-    background-color: #f9f9f9;
+    background-color: rgb(248, 246, 246) ;
     color: black;
     
   }
@@ -90,9 +90,11 @@ body {
   
   button {
     display: block;
-    width: 100%;
+    text-align: center;
+    margin: 20px;
+    width: auto;
     padding: 10px;
-    background-color: #f3112b;
+    background-color: #4610e7;
     color: white;
     border: none;
     border-radius: 5px;
@@ -100,5 +102,5 @@ body {
   }
   
   button:hover {
-    background-color: #0056b3;
+    background-color: #ec1f63;
   }
