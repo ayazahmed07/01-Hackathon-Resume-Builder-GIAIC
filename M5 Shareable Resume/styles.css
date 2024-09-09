@@ -19,15 +19,26 @@ h3 {
 form {
   border: 2px solid rgb(235, 14, 14);
   display: inline-block;
-  height: 100px;
-  width: 240px;
+  height: 60px;
+  width: 850px;
   margin: 2px;
-  padding: 5px
-
+  padding: 5px;
+  text-align: left;
   }
 
+#name {
+ 
+  border: 2px solid #141414;
+  border-radius: 2px;
+  background-color:rgb(166, 241, 96);
+  color: rgb(10, 10, 10);
+  
+}
+
 label {
-  width: 20px;
+  color: red;
+  margin: 15px; 
+   
 }
 
 button {
